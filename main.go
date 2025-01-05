@@ -9,11 +9,11 @@ import (
 
 var (
 	Custom = []Sequence{
-		{NOMOD, N1}, {NOMOD, N2}, {NOMOD, N3}, {NOMOD, N4},
-		{NOMOD, N5}, {NOMOD, N6}, {NOMOD, N7}, {NOMOD, N8},
+		{NOMOD, ESCAPE}, {NOMOD, N2}, {NOMOD, N3}, {NOMOD, PLAY},
+		{NOMOD, PREV}, {NOMOD, NEXT}, {NOMOD, N7}, {NOMOD, N8},
 		{NOMOD, N9}, {NOMOD, N0}, {NOMOD, MINUS}, {NOMOD, EQUAL},
 
-		{NOMOD, COMMA}, {NOMOD, SLASH}, {NOMOD, DOT},
+		{NOMOD, VOL_DN}, {NOMOD, MUTE}, {NOMOD, VOL_UP},
 		{NOMOD, SCOLON}, {NOMOD, BSLASH}, {NOMOD, QUOTE},
 	}
 )
